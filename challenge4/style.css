@@ -2,14 +2,31 @@
 body {
 }
 .container {
+display: flex;
+flex-direction: column;
+background-color: rgb(62, 20, 102);
+height: 100vh;
+width: 100vw;
+text-align: center;
+justify-content: center;
+align-items: center;
 }
 .movie-card {
+  height: 30vh;
+ 
 }
 .movie-image {
+  height: 200px;
+  width: 250px;
+
 }
 .movie-details-container {
+  display: inline;
+height: 100px;
+  
 }
 .descriptions {
+
 }
 
 /*A gift from us!*/
