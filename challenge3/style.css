@@ -1,11 +1,23 @@
 /* Add your code in each class */
 .container {
+  height: 300px;
+  width: 400px;
+  overflow: scroll;
 }
 .head {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background-color: rgb(173, 98, 11);
+  color: white;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
 }
 
 .row {
   /* .row is used in ./index.js not in the html filee */
+  background-color: rgb(221, 210, 62);
+  color: black;
+  overflow: scroll;
 }
 
 /* This is a gift - Does not need editing */
